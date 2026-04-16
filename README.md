@@ -128,6 +128,6 @@ NEWS_API_KEY=your_newsapi_key
 
 EXA_API_KEY=your_exa_api_key
 
-# ▶️ Run Project
+▶️ Run Project
 
 python main.py
