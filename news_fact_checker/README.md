@@ -81,19 +81,22 @@ news_fact_checker/
 # ⚙️ Installation
 
 1. Clone repo
-git clone https://github.com/yourusername/news_fact_checker.git
-cd news_fact_checker
+   
+        git clone https://github.com/yourusername/news_fact_checker.git
+        cd news_fact_checker
 
 2. Create virtual environment
-python -m venv venv
-venv\Scripts\activate   # Windows
+     
+       python -m venv venv
+       venv\Scripts\activate   # Windows
 
 3. Install dependencies
-pip install crewai newsapi-python exa-py python-dotenv pydantic
 
-4. Setup .env file
+       pip install crewai newsapi-python exa-py python-dotenv pydantic
 
-Create .env in root directory:
+5. Setup .env file
+
+        Create .env in root directory:
 
 GOOGLE_API_KEY=your_google_gemini_key
 NEWS_API_KEY=your_newsapi_key
