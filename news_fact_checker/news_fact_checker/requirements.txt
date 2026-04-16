@@ -1,7 +1,0 @@
-crewai
-crewai-tools
-exa-py
-newsapi-python
-python-dotenv
-requests
-pydantic
